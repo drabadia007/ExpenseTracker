@@ -13,15 +13,6 @@ function App() {
   const [state, dispatch] = useReducer(transactionReducer, list);
 
   const addTransaction = ({ text, amount }) => {
-    let isIncome = amount.slice(0, 1) === "+" ? true : false;
-    setList([
-      ...list,
-      {
-        title: text,
-        amount,
-        isIncome,
-      },
-    ]);
 
     dispatch({ type: "ADDITEM", payload: { text, amount } });
   };
