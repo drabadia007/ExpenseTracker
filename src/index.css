@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #f7f4f6;
+  padding: 2rem;
+}
+
+.income-expense {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #ffff;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  justify-content: space-between;
+  position: relative;
+  box-shadow: 1px 1px 1px #888888;
+}
+
+.single-item {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  background-color: #ffff;
+  box-shadow: 1px 1px 1px #888888;
+}
+
+.green {
+  border-right: 5px solid green;
+}
+
+.red {
+  border-right: 5px solid red;
+}
+
+.input {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.btn {
+  margin-top: 0.8rem;
+  padding: 0.5rem;
+  background-color: #7061ba;
+  width: 100%;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
